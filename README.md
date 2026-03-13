@@ -24,6 +24,20 @@ This project was created to practice backend development and API design concepts
 - Database integration
 - User management
 
+## How to Run
+
+1. Install dependencies
+
+pip install fastapi uvicorn
+
+2. Run the server
+
+uvicorn main:app --reload
+
+3. Open in browser
+
+http://127.0.0.1:8000/docs
+
 ## Author
 
 Mirella Maioli
